@@ -1,0 +1,6 @@
+. {
+    forward . ---IP1--- ---IP2--- {
+      health_check 5s
+    }
+    cache 30s
+}
